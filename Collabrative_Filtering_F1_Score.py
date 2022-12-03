@@ -27,39 +27,41 @@ def load_rating_data(data_path):
             each_line[1] = each_line[1].replace("[", "").replace("]", "")
             data_list.append(each_line)
     f.close()
-    with open("F1_Score.txt", "w") as f:
+    with open("Balance_accuracy.txt", "w") as f:
         for data in data_list:
             model_id = data[0].split(",")[0]
             dataset_id = data[0].split(",")[1]
-            f1_score = data[1].split(",")[6].strip()
+            f1_score = data[1].split(",")[2].strip()
             f.write(dataset_id + "::" + model_id + "::" + f1_score + "\n")
         f.close()
 
 
 def recommendByDataset(datasetId):
     formatRate()
-    n = len(dataset_Dict[datasetId])
+    # n = len(dataset_Dict[datasetId])
     getNearestNeighbor(datasetId, dataset_Dict, Model_Dict)
-    getrecommandList()
+    getrecommendList()
 
 
-def getrecommandList():
-    recommandDict = {}
-    recommandList = []
-    for neighbor in neighbors:
-        models = dataset_Dict[neighbor[1]]
-        for model in models:
-            if model[0] in recommandDict:
-                recommandDict[model[0]] += neighbor[0]
-            else:
-                recommandDict[model[0]] = neighbor[0]
-    for key in recommandDict:
-        recommandList.append([recommandDict[key], key])
-    print(recommandList)
+def getrecommendList():
+    recommendDict = {}
+    recommendList = []
+    # for neighbor in neighbors:
+    neighbor = neighbors[0]
+    models = dataset_Dict[neighbor[1]]
+    for model in models:
+        if model[0] in recommendDict:
+            recommendDict[model[0]] += model[1]
+        else:
+            recommendDict[model[0]] = model[1]
+    for key in recommendDict:
+        recommendList.append([recommendDict[key], key])
+    print(recommendList)
     print("___________________")
-    recommandList.sort(reverse=True)
-    recommandList = recommandList[:n]
-    return recommandList
+    recommendList.sort(key=lambda x: x[0], reverse=True)
+    recommendList = recommendList[:n]
+    print("Top", n, "recommend Models:", recommendList)
+    return recommendList
 
 
 def formatRate():
@@ -90,24 +92,25 @@ def getNearestNeighbor(dataset_Id, dataset_Dict, Model_Dict):
         neighbors.append([dist, i])
     # print(neighbors)
     neighbors.sort(reverse=True)
-    # print(neighbors)
+    print(neighbors)
 
 
-def getPrecision(datasetId,recommandList):
+def getPrecision(datasetId, recommendList):
     dataset = [i[0] for i in dataset_Dict[datasetId]]
-    recommand = [i[1] for i in recommandList]
+    recommend = [i[1] for i in recommendList]
     count = 0.0
-    if len(dataset) >= len(recommand):
-        for i in recommand:
+    if len(dataset) >= len(recommend):
+        for i in recommend:
             if i in dataset:
                 count += 1.0
-        cost = count / len(recommand)
+        cost = count / len(recommend)
     else:
         for i in dataset:
-            if i in recommand:
+            if i in recommend:
                 count += 1.0
-        cost = count / len(recommand)
+        cost = count / len(recommend)
     return cost
+
 
 def formatuserDict(userId, userDict, l):
     user = {}
@@ -136,7 +139,8 @@ def getCost(userId, l):
 
 
 if __name__ == "__main__":
-    recommendByDataset("0")
-    recommandList = getrecommandList()
-    cost = getPrecision("0",recommandList)
-    print(cost)
+    load_rating_data("edge.txt")
+    # recommendByDataset("0")
+    # recommendList = getrecommendList()
+    # cost = getPrecision("0", recommendList)
+    # print(cost)
