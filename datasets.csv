@@ -1,0 +1,1053 @@
+id,datasetId,datasetSlug,ownerUser,# of classes,classes,usabilityRating,totalViews,totalVotes,totalDownloads,title,subtitle,description,isPrivate,keywords,licenses
+0,1120722,multiclassimagedatasetairplanecar,abtabm,3,"airplanes, cars, ships",0.625,5110,12,678,Multiclass-image-dataset-airplane-car-ship,"Airplanes,cars and ships image dataset (multiclass-image-classification)","### Content
+
+This image data is acquired from Flickr,Bing,Google..etc for Multiclass classification, it contains data for 3 classes:-
+- Airplane
+- Cars
+- Ships
+
+### Inspiration
+
+A Dataset Contribution for Kaggle Community.
+&gt; Do Upvote if you find this Dataset Useful ?? ",FALSE,"['computer science', 'automobiles and vehicles', 'beginner', 'computer vision', 'cnn', 'image data']",other
+1,747014,dataset-for-wbc-classification,alifrahman,2,"cats, dogs",0.6875,2121,9,332,Dataset for cats and dogs image classification,This dataset consists of images of cats and dogs for classification.,"### Context
+
+This dataset is used for binary classification task using CNN
+
+
+### Content
+
+This dataset contains the images of cats and dogs for the classification purpose using CNN.
+
+
+### Acknowledgements
+
+We wouldn't be here without the help of others. If you owe any attributions or thanks, include them here along with any citations of past research.
+
+
+### Inspiration
+
+Your data will be in front of the world's largest data science community. What questions do you want to see answered?",FALSE,"['earth and nature', 'animals', 'cnn', 'binary classification']",DbCL-1.0
+2,8782,flowers-recognition,alxmamaev,5,"daisy, dandelion, rose, sunflower, tulip",0.625,428297,1672,76058,Flowers Recognition,This dataset contains labeled 4242 images of flowers.,"### Context
+This dataset contains 4242 images of flowers. 
+The data collection is based on the data flicr, google images, yandex images.
+You can use this datastet to recognize plants from the photo.
+
+
+### Content
+The pictures are divided into five classes: chamomile, tulip, rose, sunflower, dandelion. 
+For each class there are about 800 photos. Photos are not high resolution, about 320x240 pixels. Photos are not reduced to a single size, they have different proportions!
+
+#Acknowledgements
+The data collection is based on scraped data from flickr, google images, and yandex images.
+
+#Inspiration
+What kind of flower is that?",FALSE,"['plants', 'image data', 'multiclass classification']",unknown
+3,1028436,emotion-detection-fer,ananthu017,7,"angry, disgust, fear, happy, neutral, sad, surprise",0.875,49812,120,7222,Emotion Detection,FER - 2013 dataset with 7 emotion types,"The dataset contain 35,685 examples of 48x48 pixel gray scale images of faces divided into train and test dataset. Images are categorized based on the emotion shown in the facial expressions (happiness, neutral, sadness, anger, surprise, disgust, fear).",FALSE,"['arts and entertainment', 'earth and nature', 'feature engineering', 'cnn', 'image data']",CC0-1.0
+4,693767,doom-crossing,andrewmvd,2,"animal crossing, doom",0.941176471,19461,125,1039,Doom or Animal Crossing? (Image Classification),Classifying digits? pffffff....This is the real deal,"# Abstract
+&gt; Tired of MNIST? Want to apply your skills to a relevant issue of the 21st century?
+You came to the wrong place my guy or girl - but it might be fun!
+&gt; Classify the source of memes into two classes: **Doom or Animal Crossing**.
+
+
+# About this dataset
+&gt; This dataset contains **1597 image posts** extracted from both r/doom and r/animalcrossing, including metadata.
+Images vary in dimensions and images were selected as best of the month in july 2020.
+
+
+# How to use this dataset
+&gt; - Your kernel can be featured here!
+- [More datasets](https://www.kaggle.com/andrewmvd/datasets)
+
+# Acknowledgements
+You shouldn't use this on your research, but hey I'm a description, not a science cop.
+Anyway its public license so have fun (If you need a DOI to publish let me know but I'll be pretty surprised if anyone does).
+
+&gt; ### License
+Original Author, Public Domain
+
+&gt; ### Splash banner
+Artwork by [RY Spirit](https://www.deviantart.com/ry-spirit) available on [deviantart](https://www.deviantart.com/ry-spirit/art/Animal-Crossing-Over-831049396).",FALSE,"['video games', 'education', 'image data']",copyright-authors
+5,621064,drinking-waste-classification,arkadiyhacks,4,"alu can, glass, hdpem, pet",0.75,18755,36,1917,Drinking Waste Classification,"4 classes of waste: Aluminium Cans, Glass bottles, PET bottles, HDPE bottles","
+
+###About the Dataset:
+4 classes of drinking waste: Aluminium Cans, Glass bottles, PET (plastic) bottles and HDPE (plastic) Milk bottles. 
+rawimgs - images of 4 classes of waste
+YOLO_imgs - images of 4 classes of waste with corresponding txt file (annotations for YOLO framework)
+labels.txt - labels of the classes
+
+###Story 
+This dataset was manually labelled and collected as a part of final year Individual Project at University College London. Pictures were taken with 12 MP phone camera. I created a real-time waste detection and identification system powered by YOLO framework. Use it as you like, if you could cite me in your work, would be much appreciated. Please reach out to me if this dataset actually helped you with your project. 
+Arkadiy Serezhkin - arkadiyhacks@gmail.com
+
+
+### Acknowledgements
+The dataset used parts of manually collected dataset of Gary Thung and Mindy Yang. I would like to thank them for collecting their dataset as this is not a fun thing to do (from my own experience). You can find their repository here https://github.com/garythung/trashnet.
+
+
+",FALSE,['energy'],CC0-1.0
+6,675484,face-mask-12k-images-dataset,ashishjangra27,2,"with mask, without mask",0.875,81961,254,15928,Face Mask Detection ~12K Images Dataset,12K Images divided in training testing and validation directories.,"### Context
+
+This dataset is used for Face Mask Detection Classification with images. The dataset consists of almost 12K images which are almost 328.92MB in size.
+
+### Acknowledgments
+All the images with the face mask (~6K) are scrapped from google search and all the images without the face mask are preprocessed from the CelebFace dataset created by Jessica Li (https://www.kaggle.com/jessicali9530). Thank you so much Jessica for providing a wonderful dataset to the community.
+
+### Inspiration
+The inspiration behind creating this dataset is to create an algorithm that can directly detect is a person is wearing a face mask or not. So I've scrapped the images from google as well as from the CelebFace dataset created by Jessica Li (https://www.kaggle.com/jessicali9530) to make this happen.",FALSE,['earth and nature'],CC0-1.0
+7,205087,animal-image-datasetdog-cat-and-panda,ashishsaxena2209,3,"cats, dogs, pandas",0.375,46467,183,10801,"Animal Image Dataset(DOG, CAT and PANDA)",Dataset for Image Classification Practice,,FALSE,['animals'],unknown
+8,22567,color-classification,ayanzadeh93,9,"black, blue, brown, green, orange, red, violet, white, yellow",0.875,29968,55,2252,color classification,Dataset for color classification,"**Introduction**
+
+Color classification is an important application that is used in many areas. For example, systems that perform daily. SVM classifier with an optimal hyperplane life analysis can benefit from this classification process. For the classification process, lots of classification algorithms can be used. Among them, the most popular machine learning algorithms are neural networks, decision trees, k-nearest neighbors, Bayes network, support vector machines. In this work for training, SVMs are used and a classifier model was tried to be obtained. SVMs algorithm is one of the supervised learning methods. SVM calls for solutions to regression and classification problems as in all supervised learning methods. This algorithm is usually used to training for separate and classify different labeled samples. As a result of training with SVM, it is aimed to create an optimum hyperplane and classify the data in different
+classes. This hyperplane is located as far away from the data as possible to avoid error conditions.
+
+**Dataset**
+
+The datasets have contained about 80 images for trainset datasets for whole color classes and 90 images for the test set. colors which are prepared for this application is y yellow, black, white, green, red, orange, blue a and violet. In this implementation, basic colors are preferred for classification. and created a dataset containing images of these basic colors. The dataset also includes masks for all images. we create these masks by binarizing the image. we did the masking on the images I collected and painted the pixels belonging to the class color to white and remaining pixels to the black color.",FALSE,"['earth and nature', 'computer science', 'classification', 'deep learning', 'image data']",ODbL-1.0
+9,2136537,tom-and-jerry-image-classification,balabaskar,3,"tom, jerry, tom_jerry",1,5293,74,623,Tom and Jerry Image classification,Collection of 5k+ images with labelled data of Tom & Jerry cartoon show,"# Context
+
+Tom and Jerry is an American animated media franchise and series of comedy short films created in 1940 by William Hanna and Joseph Barbera. Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer, the series centers on the rivalry between the titular characters of a cat named Tom and a mouse named Jerry.
+
+This is one of the famous cartoon shows, that we would have never missed watching during our childhood. Now, its time to use our deep learning skills to detect our favorite characters - **Tom** and **Jerry** in the images extracted from some of the shows.
+
+# Data Preparation
+
+This dataset contains more than 5k images (exactly 5478 images) extracted from some of Tom & Jerry's show videos, that are available online.
+The downloaded videos are converted into images with 1 frame per second **(1 FPS)**
+
+### Labeling for these images is done manually (by going through images one by one to tag them as 1 of the 4 outcomes), so the accuracy of ground_truth is 100%
+
+Labeled images are separated into 4 different folders as given.
+
+**Folder - tom_and_jerry**
+      **SubFolder tom - contains images only with 'tom'**
+      **SubFolder jerry - contains images only with 'jerry'**
+      **SubFolder tom_jerry_1 - contains images with both 'tom' and 'jerry'**
+      **SubFolder tom_jerry_0 - contains images without both the characters**
+
+### ground_truth.csv file contains labeled data against each image file
+
+# Inspiration
+
+1. Detect the presence of characters 'tom' and 'jerry' in any given image
+2. Find the total screen time of Tom only, Jerry only, with both Tom & Jerry, without Tom & Jerry (Note: each image is extracted with 1FPS, which can help us to estimate the total screening time in seconds of Tom & Jerry after we detect these characters in these images)
+3. Estimate maximum screen time showing both Tom & Jerry in the show (continuously) (Note: The image name is created based on the order of appearance, say file name - **frame500.jpg** indicates the frame extracted at 500th second of the video
+
+# Challenges in the data
+
+There are images that can be challenged during training in image classification, as these images are distorted in the original size or shape and color of the characters. These image details are given in **csv file - challenges.csv** Doing error analysis on these images after model training, will help us understand how to improve the score.
+
+Few examples are given below:
+
+[![1.jpg](https://i.postimg.cc/Tw8L4ZJx/1.jpg)](https://postimg.cc/VSRkSZhZ) [![2.jpg](https://i.postimg.cc/J4TyLy5P/2.jpg)](https://postimg.cc/HVyW0kKy)",FALSE,"['education', 'software', 'data analytics', 'image data', 'comics and animation']",CC0-1.0
+10,2296957,pizza-not-pizza,carlosrunner,2,"pizza, not pizza",0.9375,12386,46,1367,Pizza or Not Pizza?,Binary image classification,"Who doesn't like pizza? This dataset contains about 1000 images of pizza and 1000 images of dishes other than pizza. It can be used for a simple binary image classification task.
+
+All images were rescaled to have a maximum side length of 512 pixels. 
+
+This is a subset of the Food-101 dataset. Information about the original dataset can be found in the following paper: 
+Bossard, Lukas, Matthieu Guillaumin, and Luc Van Gool. ""Food-101 每 Mining Discriminative Components with Random Forests."" In *European conference on computer vision*, pp. 446-461. Springer, Cham, 2014.
+
+The original dataset can be found in the following locations:
+https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/
+https://www.kaggle.com/datasets/dansbecker/food-101
+https://paperswithcode.com/dataset/food-101
+https://www.tensorflow.org/datasets/catalog/food101
+
+Number of instances in each class:
+Pizza: 983
+Not Pizza: 983
+
+##Acknowledgements
+
+The Food-101 data set consists of images from Foodspotting [1] which are not property of the Federal Institute of Technology Zurich (ETHZ). Any use beyond scientific fair use must be negociated with the respective picture owners according to the Foodspotting terms of use [2].
+
+[1] http://www.foodspotting.com/
+[2] http://www.foodspotting.com/terms/",FALSE,"['computer vision', 'classification', 'image data', 'binary classification', 'food']",other
+11,2473086,smiling-or-not-face-data,chazzer,2,"smiling, unsmiling",0.875,5680,19,617,Smiling or Not | Face Data,2 classes of people's faces: smiling faces and non smiling faces,"A dataset comprised of closeups of people's faces, belonging to 2 binary classes.
+600 smiling faces in the ""smile"" folder.
+603 non smiling faces in the ""non_smile"" folder.
+We can build a smile detector with this dataset, and even a ""smile transformer"" via a Style Transfer algorithm.
+The ""test"" folder contains ~12k unlabeled faces. If someone wants go through the work of labeling these faces as smile/nonsmile and republish a greater version of this dataset, please be my guest!",FALSE,"['computer vision', 'neural networks', 'cnn', 'image data', 'social networks']",CC0-1.0
+12,22535,dogs-cats-images,chetankv,2,"cats, dogs",0.5625,118418,541,30107,Dogs & Cats Images,image classification,,FALSE,['online communities'],CC0-1.0
+13,1837571,pepsico-lab-potato-quality-control,concaption,2,"defective, not defective",0.875,4034,16,218,PepsiCo Lab Potato Chips Quality Control,Image dataset for the binary classification of potato chips for quality control,"### Starter code at
+Kindly start this repository to encourage me to contribute more to the open source.
+https://github.com/concaption/PepsiCo-Lab-Potato-Quality-Control
+
+### Context
+
+A lot of research is being done to improve the quality of the food. Frito-Lay is the subsidiary of Pepsico that makes globally famous potato chips. The chips get burnt due to during the process. There is a minimum requirement for the amount of the burned or damaged part that can be on a chip.
+As a PepsiCo intern, you are advised to build a deep learning-based approach towards solving the quality issues of potato chips. You are advised to find the area of the chips that is damaged. 
+Also research about other chips quality control methods that are being researched in academia and industry.
+* https://doi.org/10.1016/B978-0-12-802232-0.00022-0
+* 
+
+
+### Content
+
+The directory contains a balanced dataset of binary classification; the two labels being defective and non-defective. The data set contains almost a thousand image.
+
+
+### Acknowledgements
+
+http://UsamaNavid.com/
+http://BilalMujahid.me/
+
+
+### Inspiration
+
+The inspiration of the project is to solve the problems in the industry using cutting-edge technology and bring academia and industry together. Industry 4.0 is here.",FALSE,"['intermediate', 'binary classification', 'transfer learning', 'tensorflow']",CC0-1.0
+14,1394179,cat-and-dogs,d4rklucif3r,2,"cats, dogs",0.875,9005,54,1684,Cat & Dogs,Cats and Dogs image dataset,"This dataset contains 3 directories,
+1) Train Set : Training images of cat and dogs
+2) Test Set : Test images of cat and dogs
+3) Single Predictions : Directory for single image predicitons",FALSE,"['cnn', 'image data', 'keras', 'pytorch']",DbCL-1.0
+15,1817908,is-that-santa-image-classification,deepcontractor,2,"santa, not a santa",0.75,5233,34,458,IS THAT SANTA? (Image Classification),Santa Claus Classification,"### Context
+
+Ho, Ho, Ho It's Christmas time so why not have a Christmas themed dataset to practice image classification.
+ 
+### Content
+
+This is a binary classification image dataset where you can have to train a deep learning model which can predict if an image contains Santa Claus or not.
+
+### Inspiration
+
+This was completely my idea, but upon googling it was found that pyimagesearch has a similar private dataset. However this data set is completely built and compiled by me :)  ",FALSE,"['religion and belief systems', 'classification', 'deep learning', 'image data', 'binary classification', 'holidays and cultural events']",CC0-1.0
+16,107582,rockpaperscissors,drgfreeman,3,"paper, rock, scissors",0.875,58599,168,10904,Rock-Paper-Scissors Images,Images from the Rock-Paper-Scissors game,This dataset contains images of hand gestures from the **Rock-Paper-Scissors** game. The images were captured as part of a hobby project where I developped a Rock-Paper-Scissors game using computer vision and machine learning on the Raspberry Pi (https://github.com/DrGFreeman/rps-cv).,FALSE,"['arts and entertainment', 'games', 'classification', 'pca', 'image data']",CC-BY-SA-4.0
+17,813760,rock-paper-scissors-dataset,eng0mohamed0nabil,3,"paper, rock, scissors",0.875,2357,8,60,Rock Paper Scissors dataset,Rock Paper Scissors dataset,"This dataset refers to rock , paper and scissors game with different shapes and colors of hands . It contains three files:
+1. first file for training 
+2. second file for testing 
+3. third file for validation",FALSE,"['games', 'deep learning', 'dnn', 'cnn', 'image data', 'multiclass classification']",Attribution 3.0 Unported (CC BY 3.0)
+18,2596318,smiling-or-not,erikgevondyan,2,"smiling, unsmiling",0.8125,68,1,3,SMILING OR NOT | FACE IMAGES,Smiling and unsmiling man images,"Dataset for my pet-project - https://github.com/gevondyanerik/smiling_or_not.
+Images were parsed from google search and cleaned.
+smiling - 2032 pieces.
+unsmiling - 1964 pieces.",FALSE,"['people', 'image data']",CC0-1.0
+19,804556,breakhis-400x,forderation,2,"benign, malignant",0.8125,12315,32,2455,BreaKHis 400X,Breast cancer images on histopathology slides,"The BreaKHis database contains microscopic biopsy images benign and malignant breast tumors, wherein this dataset, I have done to separate training data and test data with different folders, each file has a different slide image. In this dataset I only took a partial sample of 400x optical zoom, if you are further interested in the dataset, please refer to this paper:  
+
+FA Spanhol, LS Oliveira, C. Petitjean and L. Heutte, ""A Dataset for Breast Cancer Histopathological Image Classification,"" in IEEE Transactions on Biomedical Engineering, vol. 63, no. 7, pp. 1455-1462, July 2016, doi: 10.1109 / TBME.2015.2496264. 
+
+Given this, the dataset is not in my control. This dataset purpose is to deep learning learner",FALSE,"['medicine', 'deep learning', 'image data', 'cancer']",CC0-1.0
+20,1170172,ants-bees,gauravduttakiit,2,"ants, bees",0.5625,3201,5,519,Ants & Bees,To build NN to identify Bee or Ant,"### Context
+
+Bee & Ant
+
+
+### Inspiration
+
+Nature",FALSE,['biology'],DbCL-1.0
+21,1625943,rock-paper-scissors-dataset,glushko,3,"paper, rock, scissors",0.875,6812,27,416,"Rock, Paper, Scissors Dataset","My image dataset of rock, paper, scissors hand shapes taken by web cam of McBook","### Context
+
+This dataset was collected during my work on the my rock, paper, scissors game which is a Tensorflow.js application I have deployed to my website:
+
+- https://www.romaglushko.com/lab/rock-paper-scissors/
+
+Take a look at it!
+
+
+### Content
+
+The content was created by me (train and val datasets) and my girlfriend (test dataset).",FALSE,"['arts and entertainment', 'games', 'classification', 'image data', 'transfer learning']",CC-BY-SA-3.0
+22,588139,beauty-detection-data-set,gpiosenka,2,"average, beautiful",0.911764706,10077,28,672,Beauty  Classification- Beautiful or Average,"4000 Train, 300 Test, 300 Validation Images 224 X 244 X 3  jpg format ","### Context
+
+This data set was created to determine if a CNN could be trained to classify female facial images into one of two classes, Beautiful or Average.  I have always had a preoccupation with faces. In particular I was curious as to how we seem to have a built in pattern recognition system in our brains that differentiates people by their facial morphology. This differentiation can take many forms but one of the most common is our seemingly subconscious classification of beauty. So I decided if a CNN could be trained to make a similar classification. Towards this end I gathered 2000 images of fashion models from all over the world to use as the images for the Beautiful data set. I then gathered 2000 images selected from the CELEB data set. From that data set I selected women that appeared to be in about the same age range as the fashion models but that I thought were of ""average"" appearance. Of course this is MY interpretation of average which will differ from what others might consider as average. Thus there is a natural bias in the selection. I used a similar process to select the images for the Validation set and the test set. I also included in the data set a Consolidated data set which combines the training, test and validation images into a single data set. This is useful for those that wish to create their own training, test and validation splits.
+
+### Content
+
+The data set consists of a training set, a test set, a validation set and a consolidated set. Each of these sets contains two folders labeled as Beautiful and Average. For the training set there are 2000 images in the Beautiful folder and 2000 images in the Average folder. For the test set there are 150 images in the beautiful folder and 150 images in the Average folder. The validation set is similarly divided into 150 images of each type. The consolidated folder 2300 images in the Beautiful folder and 2300 images in the Average folder. The consolidated folder combines the images from the training, test and validation sets into a single set. This is convenient for users that want to create their own splits of training, test and validation images.
+All images are 224 X 224 X 3 color jpg images. Images have been cropped to only show the face. All data sets were run through a duplicate image detector and all duplicate images were removed to prevent leakage between the data sets.
+
+
+### Acknowledgements
+
+Images for the ""Average"" female images were selected from the CELEB data set.
+
+
+### Inspiration
+
+The CNN I used demonstrates very high accuracy on the classification of the test set. I am concerned however that since I selected what I considered to be ""Average"" female faces that the results are heavily biased my MY opinion. I would be curious to see what the results would be if the user selects faces to feed into the trained model for classification and see if they agree with the classification. I have posted a Predictor kernel that uses the trained model to make predictions. Unfortunately I can not run this kernel on the existing data set due to its structure on kaggle. However users can download that kernel and use it with images they select for classification. To us this kernel download the data set and use the files beauty.txt and beauty-224-224-100.0.h5 with the Predictor kernel For best results crop your candidate image to just include the face and convert it to a 224 X 224 X3 image. ******WARNING ****** to male users!!!! Do not put in a picture of your significant other. If the CNN classifies her as average she will undoubtedly smack you over the head with a cast iron frying pan and depart for places unknown never to be seen again.  I learned this the hard way!",FALSE,"['computer vision', 'classification', 'cnn', 'image data', 'tensorflow']",CC0-1.0
+23,1015655,gender-classification-from-an-image,gpiosenka,2,"female, male",0.647058824,5122,12,625,Gender Classification from an image,"3491 train, 200 test, 200 validation images jpg format","### Context
+
+I do a lot of work with image data sets. Often it is necessary to partition the images into male and female data sets. Doing this by hand can be a long and tedious task particularly on large data sets. So I decided to create a classifier that could do the task for me.
+
+
+### Content
+
+I used the CELEBA aligned data set to provide the images. I went through and separated the images visually into 1747 female and 1747 male training images.
+I also created  100 male and 100 female test image and 100 male, 100 female validation images. I want to only  the face to be in the image so I developed an image cropping function using MTCNN to crop all the images. That function is included as one of the notebooks should anyone have a need for a good face cropping function. I also created an image duplicate detector to try to eliminate any of the training images from appearing in the test or validation images. 
+I have developed a general purpose image classification function that works very well for most image classification tasks. It contains the option to select 1 of 7 models for use. For this application I used the MobileNet model because it is less computationally expensive and gives excellent results. On the test set accuracy is near 100%.
+
+
+### Acknowledgements
+
+The CELEBA aligned data set was used. This data set is very large and of good quality. To crop the images to only include the face I developed a face cropping function using MTCNN. MTCNN is a very accurate program and is reasonably fast, however it is notflawless so after cropping the iages  you shouldalways visually inspect the results.
+
+
+### Inspiration
+
+I developed this data set to train a classifier to be able to distinguish the gender shown in an image. Why bother you may ask I can just look at the image and tell. True but lets say you have a data set of 50,000 images that you want to separate it into male and female data sets. Doing that by hand would take forever. With the trained classifier with near 100% accuracy you can use the classifier with model.predict to do the job for you.",FALSE,"['computer vision', 'classification', 'cnn', 'image data', 'tensorflow']",unknown
+24,2294621,tree-nuts-image-classification,gpiosenka,10,"almonds, brazil nuts, cashews, coconut, hazelnuts, macadamia, pecans, pine nuts, pistachios, walnuts",0.823529412,1534,19,313,Tree Nuts -Image Classification,"1163 train, 50 test, 50 validation images 224 X 224 X 3 jpg format","dataset of 10 types of tree nuts. 1163train, 50 test,50 validation files 224 X 224 X 3 jpg format. Also includes a tensorflow trained model nuts)100.0.hs that achieved an F1 score of 100%. A csv file tree nuts.csv is also provided",FALSE,"['computer vision', 'classification', 'image data', 'pre-trained model']",CC0-1.0
+25,2490389,shoe-vs-sandal-vs-boot-dataset-15k-images,hasibalmuzdadid,3,"boot, sandal, shoe",0.9375,8342,91,1234,Shoe vs Sandal vs Boot Image Dataset (15K Images),"Contains 15,000 images of shoes, sandals and boots for classification problem.","## Context
+This **Shoe vs Sandal vs Boot Image Dataset** contains 15,000 images of shoes, sandals and boots. 5000 images for each category. The images have a resolution of 136x102 pixels in RGB color model. 
+
+## Content
+There are three classes here.
+- Shoe
+- Sandal
+- Boot
+
+## Inspiration
+This dataset is ideal for performing multiclass classification with deep neural networks like CNNs.
+You can use Tensorflow, Keras, Sklearn, PyTorch or other deep/machine learning libraries to build a model from scratch or as an alternative, you can fetch pretrained models as well as fine-tune them.
+
+## Acknowledgement
+This dataset is a modified version of a large image dataset provided by M.Stephenson.
+",FALSE,"['computer vision', 'neural networks', 'cnn', 'image data', 'multiclass classification']",copyright-authors
+26,2333601,pizza-vs-ice-cream,hemendrasr,2,"pizza, ice cream",1,2559,14,213,Pizza vs Ice Cream,Which one will you pick Pizza or Ice Cream?,"## Inspiration
+I wanted to create a beginner friendly dataset for image classification and for that I have chosen Pizza and Ice Cream, which are my favorite food items.
+
+## Source
+The data was gathered from following sources:
+1. https://www.freepik.com/
+
+## Possible Task
+This dataset can be used in Binary or Multi-class Classification to predict if the given image contains the pizza or ice cream.
+
+## Copyright
+Copyright ?  2010-2022 Freepik Company S.L.",FALSE,"['beginner', 'classification', 'cnn', 'image data', 'food']",other
+27,2361804,nike-adidas-shoes-for-image-classification-dataset,ifeanyinneji,2,"adidas, nike",0.941176471,3604,22,620,"Nike,Adidas Shoes for Image Classification Dataset",Nike and Adidas Shoes Dataset to train a Deep Learning Model,"This dataset can be used to build a CNN model that can classify if a shoe is an Adidas or Nike brand.
+
+The images were pulled from bing using bing_image_search from pypi, 400 images of each class were downloaded and then the dataset was trimmed to 300(some unrelated images were removed in the process of compiling the dataset).
+
+[Link to Notebook](https://colab.research.google.com/drive/1QDhhhEeAWHLES0l2YPAmd7MQVKAiwhi4?usp=sharing)",FALSE,"['intermediate', 'computer vision', 'neural networks', 'image data', 'keras']",CC0-1.0
+28,1170109,flowers-dataset,imsparsh,5,"daisy, dandelion, rose, sunflower, tulip",0.941176471,10689,21,1310,Flowers Dataset,Flowers dataset with 5 types of flowers.,"### Context
+
+This dataset belongs to **[DPhi Data Sprint #25: Flower Recognition](https://dphi.tech/practice/challenge/61)**. The dataset contains raw jpeg images of five types of flowers. 
+- daisy
+- dandelion
+- rose
+- sunflower
+- tulip
+
+
+### Content
+
+-   train -&nbsp;contains all the images that are to be used for training your model.&nbsp; In this folder you will find five folders namely - 'daisy', 'dandelion', 'rose', 'sunflower' and 'tulip' which contain the images of the respective flowers
+-   test -&nbsp;contains 924 flowers images. For these images you are required to make predictions as the respective flower names - 'daisy', 'dandelion', 'rose', 'sunflower' and 'tulip'
+-   Testing_set_flower.csv -&nbsp;this is the order of the predictions for each image that is to be submitted on the platform. Make sure the predictions you download are with their image's filename in the same order as given in this file.
+-   sample_submission:&nbsp;This is a csv file that contains the sample submission for the data sprint.
+
+### Acknowledgements
+
+All images provided in this data sprint are licensed under the Creative Commons By-Attribution License. 
+The photographers are listed in LICENSE.txt file.
+",FALSE,"['computer vision', 'classification', 'image data', 'multiclass classification', 'eyes and vision']",CC0-1.0
+29,1377257,garbage-classification,ionutandreivaduva,4,"carton, metal, plastico, vidrio",0.4375,2007,2,169,Garbage classification,Urban waste classification,,FALSE,"['cities and urban areas', 'pollution', 'classification', 'image data', 'python']",CC-BY-NC-SA-4.0
+30,1401323,mixed-garbage-classification,ionutandreivaduva,4,"carton, metal, plastico, vidrio",0.1875,799,3,49,Mixed Garbage Classification,,,FALSE,['energy'],unknown
+31,1401671,original-garbage-classification,ionutandreivaduva,4,"carton, metal, plastico, vidrio",0.375,682,2,30,Original Garbage Classification,Resized 224x224 dataset of Garbage Classification (cchangcs),"### Content
+
+Resized 224x224 dataset of Garbage Classification (cchangcs)
+",FALSE,['energy'],copyright-authors
+32,917267,flowers,joeylimzy,5,"daisy, dandelion, rose, sunflower, tulip",0.75,3037,8,348,Flowers,For flower recognition system,"### Context
+
+This dataset is used in one of my team assignment to create a flower recognition system using different Machine Learning algorithms which are MLP, CNN, AlexNet, VGGNet, GoogleNet and ResNet.
+
+### Content
+
+The pictures are divided into five classes: daisy, tulip, rose, sunflower, dandelion.
+
+### Acknowledgements
+
+This dataset is an extension of the flower recognition dataset by Alexander Mamaev in https://www.kaggle.com/alxmamaev/flowers-recognition. Additional pictures are added into this dataset to provide more variety of flowers to train the model better. 
+
+### Inspiration
+
+Create a flower recognition system with the ML techniques that you know!",FALSE,"['arts and entertainment', 'earth and nature']",CC0-1.0
+33,1768625,rating-opencv-emotion-images,juniorbueno,7,"angry, disgust, fear, happy, neutral, sad, surprise",0.75,3020,38,215,Rating OpenCV Emotion Images,Imagens for classification,"### Context
+
+Image files with emotions for classification.
+
+
+* Angry = 0
+
+ * Disgust = 1
+
+ * Fear =  2
+
+ * Happy = 3
+
+ * Neutral =  4
+
+ * Sad =  5
+
+ * Surprise = 6
+
+32.298 images for classification
+",FALSE,"['computer vision', 'classification', 'deep learning', 'image data']",CC0-1.0
+34,1193719,football-vs-rugby-image-classification,ligtfeather,2,"rugby, soccer",0.5,5360,23,773,Football ?? Vs Rugby ?? Image Classification,Images of  American Football and Rugby for the purpose of Image Classification,"### Context
+
+A person well versed with sports will be able to recognize the image as Rugby. There could be different aspects of the image that helped you identify it as Rugby, it could be the shape of the ball or the outfit of the player. But did you notice that this image could very well be identified as a Soccer image?
+
+### Content
+
+Since we are working on an image classification problem I have made use of two of the biggest sources of image data, i.e, ImageNet, and Google OpenImages. I implemented two python scripts that we＊re able to download the images easily. A total of 3058 images were downloaded, which was  divided into train and test. I performed an 80-20 split with the train folder having 2448 images and the test folder has 610. Both the classes Rugby and Soccer have 1224 images each.
+
+Our data structure is as follows:-
+
+Input 每 3058
+-----Train 每 2048
+------------Rugby 每 1224
+------------Soccer 每 1224
+-----Test 每 610
+------------Rugby 每 305
+------------Soccer 每 305
+
+
+### Acknowledgements
+
+The images have been downloaded from ImageNet and Open Images using OIDv4_ToolKit.
+You can find the implementation here :- https://www.analyticsvidhya.com/blog/2020/10/create-image-classification-model-python-keras/",FALSE,"['sports', 'computer vision', 'classification', 'image data', 'binary classification']",unknown
+35,1137397,ants-and-bees,lys620,2,"ants, bees",0.3125,1058,7,45,Ants and bees,,Ants and bees image,FALSE,"['biology', 'beginner', 'classification', 'cnn', 'image data']",unknown
+36,1544742,satellite-image-classification,mahmoudreda55,4,"cloudy, desert, green area, water",0.8125,31287,57,2627,Satellite Image Classification,Satellite Remote Sensing Image -RSI-CB256,"## Context
+Satellite image Classification Dataset-RSI-CB256 , This dataset has 4  different classes mixed from Sensors and google map snapshot
+
+## Content
+The past years have witnessed great progress on remote sensing (RS) image interpretation and its wide applications. With RS images becoming more accessible than ever before, there is an increasing demand for the automatic interpretation of these images. In this context, the benchmark datasets serve as essential prerequisites for developing and testing intelligent interpretation algorithms. After reviewing existing benchmark datasets in the research community of RS image interpretation, this article discusses the problem of how to efficiently prepare a suitable benchmark dataset for RS image interpretation. Specifically, we first analyze the current challenges of developing intelligent algorithms for RS image interpretation with bibliometric investigations. We then present the general guidance on creating benchmark datasets in efficient manners. Following the presented guidance, we also provide an example on building RS image dataset, i.e., Million-AID, a new large-scale benchmark dataset containing a million instances for RS image scene classification. Several challenges and perspectives in RS image annotation are finally discussed to facilitate the research in benchmark dataset construction. We do hope this paper will provide the RS community an overall perspective on constructing large-scale and practical image datasets for further research, especially data-driven ones.
+
+
+### Acknowledgements
+
+Annotated Datasets for RS Image Interpretation
+The interpretation of RS images has been playing an increasingly important role in a large diversity of applications, and thus, has attracted remarkable research attentions. Consequently, various datasets have been built to advance the development of interpretation algorithms for RS images. Covering literature published over the past decade, we perform a systematic review of the existing RS image datasets concerning the current mainstream of RS image interpretation tasks, including scene classification, object detection, semantic segmentation and change detection.
+
+
+### Inspiration
+
+Artificial Intelligence, Computer Vision, Image Processing, Deep Learning, Satellite Image, Remote Sensing
+
+",FALSE,"['computer science', 'classification', 'deep learning', 'image data', 'transfer learning', 'automl']",copyright-authors
+37,1608934,brain-tumor-mri-dataset,masoudnickparvar,4,"glioma, meningioma, no tumor, pituitary",0.875,46320,122,5456,Brain Tumor MRI Dataset,A dataset for classify brain tumors,"# What is a brain tumor?
+A brain tumor is a collection, or mass, of abnormal cells in your brain. Your skull, which encloses your brain, is very rigid. Any growth inside such a restricted space can cause problems. Brain tumors can be cancerous (malignant) or noncancerous (benign). When benign or malignant tumors grow, they can cause the pressure inside your skull to increase. This can cause brain damage, and it can be life-threatening.
+
+# The importance of the subject
+Early detection and classification of brain tumors is an important research domain in the field of medical imaging and accordingly helps in selecting the most convenient treatment method to save patients life therefore 
+
+# Methods
+The application of deep learning approaches in context to improve health diagnosis is providing impactful solutions. According to the World Health Organization (WHO), proper brain tumor diagnosis involves detection, brain tumor location identification, and classification of the tumor on the basis of malignancy, grade, and type. This experimental work in the diagnosis of brain tumors using Magnetic Resonance Imaging (MRI) involves detecting the tumor, classifying the tumor in terms of grade, type, and identification of tumor location. This method has experimented in terms of utilizing one model for classifying brain MRI on different classification tasks rather than an individual model for each classification task. The Convolutional Neural Network (CNN) based multi-task classification is equipped for the classification and detection of tumors. The identification of brain tumor location is also done using a CNN-based model by segmenting the brain tumor.
+
+# About Dataset
+This dataset is a combination of the following three datasets : 
+[figshare](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)
+[SARTAJ dataset](https://www.kaggle.com/sartajbhuvaji/brain-tumor-classification-mri)
+[Br35H](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection?select=no)
+
+This dataset contains **7022** images of human brain MRI images which are classified into 4 classes: **glioma** - **meningioma** - **no tumor** and **pituitary**. 
+
+no tumor class images were taken from the Br35H dataset.
+
+I think SARTAJ dataset has a problem that the glioma class images are not categorized correctly, I realized this from the results of other people's work as well as the different models I trained, which is why I deleted the images in this folder and used the images on the figshare site instead.
+
+## Note
+Pay attention that The size of the images in this dataset is different. You can resize the image to the desired size after pre-processing and removing the extra margins. This work will improve the accuracy of the model **[pre-processing code](https://github.com/masoudnick/Brain-Tumor-MRI-Classification/blob/main/Preprocessing.py)**
+
+If you find this dataset helpful, feel free to upvote it!
+And do give me your suggestions or opinions. Thank you  :wink:",FALSE,"['health', 'medicine', 'deep learning', 'image data', 'multiclass classification', 'transfer learning', 'cancer']",CC0-1.0
+38,2460430,panda-or-bear-image-classification,mattop,2,"bears, pandas",0.75,696,17,89,Panda or Bear Image Classification,AI Panda or Bear Binary Image Classification,"The dataset contains panda and bear images generated by DALL﹞E Mini, an AI model that draws images from any prompt. The task for this dataset is binary classification.
+
+All images are scaled 256x256.",FALSE,"['arts and entertainment', 'earth and nature', 'animals', 'artificial intelligence', 'online communities']",CC0-1.0
+39,2384175,microorganism-image-classification,mdwaquarazam,8,"amoeba, euglena, hydra, paramecium, rod bacteria, spherical bacteria, spiral bacteria, yeast",0.875,4641,26,537,Micro-Organism Image Classification,"This is image data of Micro Organism Like Amoeba, Paramecium, Bacteria,Hydra an ","**Classify the Micro Organism  in given dataset.**
+
+There are 8 different types of  folder given for Micro Organism they are following  
+Amoeba---
+Euglena--
+Hydra--
+Paramecium--
+Rod bacteria--
+Spherical bacteria--
+Spiral bacteria--
+Yeast--
+
+
+****Acknowledgements****
+We wouldn't be here without the help of others. If you owe any attributions or thanks, include them here along with any citations of past research.
+
+**Name of some contributer who they published there image on bing **
+{ Doe_stack ,alamy, Go Graph visual ,dream strive ,science photolibrary ,fotosearch.com, cobris ,    
+ v begman ,Marc Perk ,bdfishing, and many more }
+
+**Inspiration**
+*Want to build powerful Neural network that can classify these images with more accuracy.*
+
+--All image may have different size so make them into similar size 
+
+--you can use Augmentation property after splitting dataset
+",FALSE,"['biology', 'classification', 'neural networks', 'cnn', 'image data']",CC0-1.0
+40,775403,bottles-and-cans,moezabid,8,"bottle_25cl, bottle_33cl, bottle_50cl, bottle_100cl, bottle_150cl, bottle_200cl, can, reject",0.875,16101,30,1598,Bottles and Cans Images,Classification of plastic bottles and aluminum cans image data.,"### Context
+
+The ""Vegeta Reverse Vending Machine"" does not rely on expensive sensors to detect the type of the object inserted, it uses AI : Deep Learning to classify the object that is detected by a cheap 1080p HD IR camera.
+
+For more information on how a reverse vending machine works : https://www.youtube.com/watch?v=I2C7GjP1fGs
+
+[&gt; Github repository of the project.](https://github.com/MoezAbid/Reverse_Vending_Machine_Raspberry_Pi)
+
+### Content
+
+There bottles and cans have already been split into folders for each class .
+
+The types of the objects which the deep learning model has been trained on :
+
+* Plastic bottles, ranging from 25cl to 2 liters.
+* Aluminum/Metal cans.
+
+While the pictures were being taken, backgrounds, sizes, lighting and contents have been varied on purpose to provide a good data set that can help for generalization of models.
+
+## Examples
+![Data Examples Bottles](https://i.imgur.com/YCAkEfw.png)
+
+### Acknowledgements
+
+This data has been collected in the context of a group school project at ESPRIT. The data has been collected by all the students of the Data Science specialty working on the Reverse Vending Machine Project. 
+
+
+### Inspiration
+
+What can be done to help the environment ?
+
+For the Demo Videos :
+[Reverse Vending Machine Web Application](https://www.youtube.com/watch?v=i-AVw1gl6Xw&feature=youtu.be)
+[Reverse Vending Facial Recognition](https://youtu.be/3dnJtUoCu2I)",FALSE,"['environment', 'business', 'health', 'deep learning', 'cnn']",CC0-1.0
+41,2049052,rice-image-dataset,muratkokludataset,5,"arborio, basmati, ipsala, jasmine, karacadag",0.875,56508,1632,5242,Rice Image Dataset,"Five different Rice Image Dataset. Arborio, Basmati, Ipsala, Jasmine, Karacadag","Rice Image Dataset
+DATASET: https://www.muratkoklu.com/datasets/
+
+Citation Request: See the articles for more detailed information on the data.
+
+Koklu, M., Cinar, I., & Taspinar, Y. S. (2021). Classification of rice varieties with deep learning methods. Computers and Electronics in Agriculture, 187, 106285. https://doi.org/10.1016/j.compag.2021.106285
+
+Cinar, I., & Koklu, M. (2021). Determination of Effective and Specific Physical Features of Rice Varieties by Computer Vision In Exterior Quality Inspection. Selcuk Journal of Agriculture and Food Sciences, 35(3), 229-243. https://doi.org/10.15316/SJAFS.2021.252
+
+Cinar, I., & Koklu, M. (2022). Identification of Rice Varieties Using Machine Learning Algorithms. Journal of Agricultural Sciences https://doi.org/10.15832/ankutbd.862482
+
+Cinar, I., & Koklu, M. (2019). Classification of Rice Varieties Using Artificial Intelligence Methods. International Journal of Intelligent Systems and Applications in Engineering, 7(3), 188-194. https://doi.org/10.18201/ijisae.2019355381
+
+DATASET: https://www.muratkoklu.com/datasets/
+
+Highlights
+? Arborio, Basmati, Ipsala, Jasmine and Karacadag rice varieties were used.
+? The dataset (1) has 75K images including 15K pieces from each rice variety. The dataset (2) has 12 morphological, 4 shape and 90 color features.
+? ANN, DNN and CNN models were used to classify rice varieties.
+? Classified with an accuracy rate of 100% through the CNN model created.
+? The models used achieved successful results in the classification of rice varieties.
+
+Abstract
+Rice, which is among the most widely produced grain products worldwide, has many genetic varieties. These varieties are separated from each other due to some of their features. These are usually features such as texture, shape, and color. With these features that distinguish rice varieties, it is possible to classify and evaluate the quality of seeds. In this study, Arborio, Basmati, Ipsala, Jasmine and Karacadag, which are five different varieties of rice often grown in Turkey, were used. A total of 75,000 grain images, 15,000 from each of these varieties, are included in the dataset. A second dataset with 106 features including 12 morphological, 4 shape and 90 color features obtained from these images was used. Models were created by using Artificial Neural Network (ANN) and Deep Neural Network (DNN) algorithms for the feature dataset and by using the Convolutional Neural Network (CNN) algorithm for the image dataset, and classification processes were performed. Statistical results of sensitivity, specificity, prediction, F1 score, accuracy, false positive rate and false negative rate were calculated using the confusion matrix values of the models and the results of each model were given in tables. Classification successes from the models were achieved as 99.87% for ANN, 99.95% for DNN and 100% for CNN. With the results, it is seen that the models used in the study in the classification of rice varieties can be applied successfully in this field.",FALSE,"['agriculture', 'computer science', 'computer vision', 'cnn', 'image data']",CC0-1.0
+42,165566,brain-mri-images-for-brain-tumor-detection,navoneel,2,"no tumor, yes",0.5,367079,863,44475,Brain MRI Images for Brain Tumor Detection,,,FALSE,"['biology', 'health', 'computer vision', 'classification', 'deep learning']",copyright-authors
+43,292862,chessman-image-dataset,niteshfre,6,"bishop, king, knight, pawn, queen, rook",0.8125,22600,72,3328,Chessman image dataset,For chess lover in data science,"I am chess lover that is the reason behind to create this dataset. 
+It consist sub folders with the name as all chessman such as rook, king, queen, etc and these folders contains all the images.
+This is well set dataset for multi class classification ...",FALSE,"['beginner', 'classification', 'image data', 'multiclass classification']",other
+44,17810,chest-xray-pneumonia,paultimothymooney,2,"normal, pneumonia",0.75,1712277,5338,192286,Chest X-Ray Images (Pneumonia),"5,863 images, 2 categories","### Context
+
+http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
+
+![](https://i.imgur.com/jZqpV51.png)
+
+Figure S6. Illustrative Examples of Chest X-Rays in Patients with Pneumonia, Related to Figure 6
+The normal chest X-ray (left panel) depicts clear lungs without any areas of abnormal opacification in the image. Bacterial pneumonia (middle) typically exhibits a focal lobar consolidation, in this case in the right upper lobe (white arrows), whereas viral pneumonia (right) manifests with a more diffuse ＆＆interstitial＊＊ pattern in both lungs.
+http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
+
+### Content
+
+The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal).  There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal). 
+
+Chest X-ray images (anterior-posterior) were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children＊s Medical Center, Guangzhou. All chest X-ray imaging was performed as part of patients＊ routine clinical care. 
+
+For the analysis of chest x-ray images, all chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by two expert physicians before being cleared for training the AI system. In order to account for any grading errors, the evaluation set was also checked by a third expert.
+
+### Acknowledgements
+
+Data: https://data.mendeley.com/datasets/rscbjbr9sj/2
+
+License: [CC BY 4.0][1]
+
+Citation: http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
+
+![enter image description here][2]
+
+
+### Inspiration
+
+Automated methods to detect and classify human diseases from medical images.
+
+
+  [1]: https://creativecommons.org/licenses/by/4.0/
+  [2]: https://i.imgur.com/8AUJkin.png",FALSE,"['biology', 'health', 'medicine', 'image data', 'online communities']",other
+45,799266,multiclass-weather-dataset,pratik2901,4,"cloudy, rain, shine, sunrise",0.875,20048,39,3727,Multi-class Weather Dataset,Image Dataset provides a platform for recognizing different weather conditions.,"# Multi-class Weather Dataset for Image Classification
+
+Multi-class weather dataset(MWD) for image classification is a valuable dataset used in the research paper entitled ※Multi-class weather recognition from the still image using heterogeneous ensemble method§. 
+
+## Inspiration behind your dataset
+The dataset provides a platform for outdoor weather analysis by extracting various features for recognizing different weather conditions.
+
+&gt; Please note we have updated the folder structure for the dataset folder, just to `facilitate` the data load prodecure
+
+## Class Distribution
+| Class                |# of Images|
+|----------------|-------------------------------|
+|Sunrise| 357|
+|Shine| 253|
+|Rain| 215|
+|Cloudy| 300|
+
+
+
+# Data Publication
+The dataset was published on [Mendeley Data](https://data.mendeley.com/datasets/4drtyfjtfy/1)
+
+&gt; Cite: **Ajayi, Gbeminiyi  (2018)**, `Multi-class Weather Dataset for Image Classification`, Mendeley Data, v1
+
+## DOI
+&gt; http://dx.doi.org/10.17632/4drtyfjtfy.1
+
+## Published:
+&gt; 2018-09-13
+
+## Institutions:
+
+University of South Africa - Science Campus
+
+## Tags:
+
+* Earth and Nature
+* Multiclass Classification
+*  Image Processing
+* Deep Learning
+* Machine Learning 
+* Computer Vision
+
+## Licence
+
+[CC BY 4.0](http://creativecommons.org/licenses/by/4.0)",FALSE,"['universities and colleges', 'earth and nature', 'computer vision', 'deep learning', 'image data', 'multiclass classification']",Attribution 4.0 International (CC BY 4.0)
+46,2585786,pizza-classification-data,projectshs,2,"pizza, not pizza",0.875,3776,20,270,pizza classification data,Binary image classification,"About Dataset
+Who doesn't like pizza? This dataset contains about 1000 images of pizza and 1000 images of dishes other than pizza. It can be used for a simple binary image classification task.
+
+All images were rescaled to have a maximum side length of 512 pixels.
+
+This is a subset of the Food-101 dataset. Information about the original dataset can be found in the following paper:
+Bossard, Lukas, Matthieu Guillaumin, and Luc Van Gool. ""Food-101 每 Mining Discriminative Components with Random Forests."" In European conference on computer vision, pp. 446-461. Springer, Cham, 2014.
+
+The original dataset can be found in the following locations:
+https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/
+https://www.kaggle.com/datasets/dansbecker/food-101
+https://paperswithcode.com/dataset/food-101
+https://www.tensorflow.org/datasets/catalog/food101
+
+Number of instances in each class:
+Pizza: 983
+Not Pizza: 983
+
+Acknowledgements
+The Food-101 data set consists of images from Foodspotting [1] which are not property of the Federal Institute of Technology Zurich (ETHZ). Any use beyond scientific fair use must be negociated with the respective picture owners according to the Foodspotting terms of use [2].
+
+[1] http://www.foodspotting.com/
+[2] http://www.foodspotting.com/terms/",FALSE,"['image data', 'binary classification']",other
+47,111880,intel-image-classification,puneet6060,6,"buildings, forest, glacier, mountain, sea, street",0.75,350741,1243,65480,Intel Image Classification,Image Scene Classification of Multiclass,"### Context
+
+This is image data of Natural Scenes around the world. 
+
+### Content
+
+This Data contains around 25k images of size 150x150 distributed under 6 categories.
+{'buildings' -&gt; 0, 
+'forest' -&gt; 1,
+'glacier' -&gt; 2,
+'mountain' -&gt; 3,
+'sea' -&gt; 4,
+'street' -&gt; 5 }
+
+The Train, Test and Prediction data is separated in each zip files. There are around 14k images in Train, 3k in Test and 7k in Prediction.
+This data was initially published on https://datahack.analyticsvidhya.com by Intel to host a Image classification Challenge.
+
+
+### Acknowledgements
+
+Thanks to https://datahack.analyticsvidhya.com for the challenge and Intel for the Data
+
+Photo by [Jan B?ttinger on Unsplash][1]
+
+### Inspiration
+
+Want to build powerful Neural network that can classify these images with more accuracy.
+
+
+  [1]: https://unsplash.com/photos/27xFENkt-lc",FALSE,"['arts and entertainment', 'biology', 'cnn', 'image data', 'anime and manga', 'online communities']",copyright-authors
+48,487456,real-life-industrial-dataset-of-casting-product,ravirajsinh45,2,"def front, ok front",0.875,85123,237,7590,casting product image data for quality inspection,"industrial data,casting manufacturing product, quality inspection, automation","### Context
+
+This dataset is of casting manufacturing product.
+Casting is a manufacturing process in which a liquid material is usually poured into a mould, which contains a hollow cavity of the desired shape, and then allowed to solidify.
+Reason for collect this data is casting defects!! 
+Casting defect is an undesired irregularity in a metal casting process.
+There are many types of defect in casting like blow holes, pinholes, burr, shrinkage defects, mould material defects, pouring metal defects, metallurgical defects, etc.
+Defects are an unwanted thing in casting industry. For removing this defective product all industry have their quality inspection department. But the main problem is this inspection process is carried out manually. It is a very time-consuming process and due to human accuracy, this is not 100% accurate. This can because of the rejection of the whole order. So it creates a big loss in the company.
+
+We decided to make the inspection process automatic and for this, we need to make deep learning classification model for this problem.
+
+### contain 
+
+These all photos are top view of submersible pump impeller(google search for better understanding).
+The dataset contains total 7348 image data. These all are the size of (300*300) pixels grey-scaled images. In all images, augmentation already applied.
+
+Also uploaded images size of 512x512 grayscale. This data set is without Augmentation. This contains 519 ok_front and 781 def_front impeller images. 
+
+For capturing these images requires stable lighting, for this we made a special arrangement.
+
+there are mainly two categories:-
+1) Defective 
+2)Ok
+
+making classification model we already split data for training and testing into two folders.
+Both train and test folder contains def_front and ok_front subfolders.
+
+train:- def_front have 3758 and ok_front have 2875 images
+test:- def_front have:- def_front have 453 and ok_front have 262 images
+
+
+### Acknowledgements
+
+We wouldn't be here without the help of PILOT TECHNOCAST, Shapar, Rajkot. we have to thank them for constant support and allowing us to work for this problem.
+
+
+### Prototype
+
+We also made Working prototype using this dataset. [Click here](https://www.youtube.com/watch?v=4sDfwS48p0A)
+
+
+### Contact detail
+
+If you want to know more about project and dataset drop mail on ravirajsinhdabhi86@gmail.com or DM me on [LinkedIn](https://www.linkedin.com/in/ravirajsinh45/)",FALSE,"['arts and entertainment', 'business', 'manufacturing', 'image data', 'binary classification']",Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+49,822964,vechicle-dataset,rishabkoul1,9,"bike, boat, bus, car, cycle, helicopter, plane, scooty, truck",0.875,5771,9,771,Vechicle Dataset,Vechile Image Dataset for MultiClass Classification,"This dataset can be used to do multiclass image classification. It contains differnet types of vehicles. 
+I scrapped this data using fatkun google chrome extension - https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en
+demo - https://imagecustom.herokuapp.com/
+banner image by - Igor Starkov from Pexels",FALSE,"['image data', 'multiclass classification']",CC0-1.0
+50,2252979,rome-weather-classification,rogeriovaz,5,"cloudy, foggy, rainy, snowy, sunny",0.875,1889,15,226,Rome Weather Image Classification,5 different weather class images,"Images from Rome during 5 different weather conditions.
+50 images for each class:
+- Sunny
+- Rainy
+- Cloudy
+- Foggy
+- Snowy
+
+One Directory for each class.
+",FALSE,"['weather and climate', 'computer vision', 'classification', 'deep learning', 'image data']",CC0-1.0
+51,84954,dogs-vs-cats,salader,2,"cats, dogs",0.375,7931,35,2766,dogs vs cats,dogs and cats and cats and dogs,,FALSE,['arts and entertainment'],unknown
+52,174293,rock-paper-scissors-dataset,sanikamal,3,"paper, rock, scissors",0.875,31532,68,3310,Rock Paper Scissors Dataset,Rock Paper Scissors 每 A multi class dataset for learning computer vision,"### Abstract
+Rock Paper Scissors is a dataset containing 2,892 images of diverse hands in Rock/Paper/Scissors poses. It is licensed [CC By 2.0](https://creativecommons.org/licenses/by/2.0/) and available for all purposes, but it＊s intent is primarily for learning and research.
+
+### Overview
+Rock Paper Scissors contains images from a variety of different hands,  from different races, ages and genders, posed into Rock / Paper or Scissors and labelled as such. These images have all been generated using CGI techniques as an experiment in determining if a CGI-based dataset can be used for classification against real images.
+
+Note that all of this data is posed against a white background.
+
+Each image is 300℅300 pixels in 24-bit color
+
+### License
+The dataset is licensed as a CC By 2.0, free for you to share and adapt for all uses, commercial or non-commercial. Please just attribute and give appropriate credit to Laurence Moroney (lmoroney@gmail.com / laurencemoroney.com), and place no additional restrictions on your users as outlined [here](https://creativecommons.org/licenses/by/2.0/).
+
+For more info [http://www.laurencemoroney.com/rock-paper-scissors-dataset/](http://www.laurencemoroney.com/rock-paper-scissors-dataset/)
+",FALSE,"['arts and entertainment', 'computer vision', 'image data', 'multiclass classification']",other
+53,429527,waste-classification-data-v2,sapal6,3,"non-recyclable, organic, recyclable",0.5625,12430,24,1172,Waste Classification Data v2,Improved version of the Waste Classification Dataset,,FALSE,"['environment', 'business', 'energy', 'classification', 'multiclass classification']",CC-BY-SA-4.0
+54,672377,brain-tumor-classification-mri,sartajbhuvaji,4,"glioma, meningioma, no tumor, pituitary",0.875,175218,350,18938,Brain Tumor Classification (MRI),Classify MRI images into four classes,"
+# Abstract
+A  Brain tumor is considered as one of the aggressive diseases,  among children and adults.  Brain tumors account for 85 to 90 percent of all primary Central  Nervous  System(CNS)  tumors.   Every year,  around  11,700  people are diagnosed with a brain tumor.  The 5-year survival rate for people with a cancerous brain or CNS tumor is approximately 34 percent for men and36 percent for women.  Brain Tumors are classified as: Benign Tumor, Malignant Tumor, Pituitary Tumor, etc. Proper treatment, planning, and accurate diagnostics should be implemented to improve the life expectancy of the patients. The best technique to detect brain tumors is Magnetic Resonance Imaging (MRI). A huge amount of image data is generated through the scans. These images are examined by the radiologist. A  manual examination can be error-prone due to the level of complexities involved in brain tumors and their properties.
+
+Application of automated classification techniques using Machine Learning(ML) and Artificial Intelligence(AI)has consistently shown higher accuracy than manual classification.  Hence, proposing a system performing detection and classification by using Deep Learning Algorithms using ConvolutionNeural Network (CNN), Artificial Neural Network (ANN), and TransferLearning (TL) would be helpful to doctors all around the world.
+
+### Context
+
+Brain  Tumors are complex.   There are a  lot of abnormalities in the sizes and location of the brain tumor(s).  This makes it really difficult for complete understanding of the nature of the tumor.   Also,  a professional Neurosurgeon is required for MRI analysis.  Often times in developing countries the lack of skillful doctors and lack of knowledge about tumors makes it really challenging and time-consuming to generate reports from MRI＊.  So an automated system on Cloud can solve this problem.
+
+
+### Definition
+
+To Detect and Classify Brain Tumor using, CNN and TL; as an asset of Deep Learning and to examine the tumor position(segmentation).
+
+
+### Acknowledgements for Dataset.
+
+Navoneel Chakrabarty
+Swati Kanchan
+
+### Team
+
+Sartaj Bhuvaji
+Ankita Kadam
+Prajakta Bhumkar
+Sameer Dedge",FALSE,"['celebrities', 'movies and tv shows', 'biology', 'classification', 'cancer', 'news']",CC0-1.0
+55,1209461,ml-hackathon,shanmukh05,6,"buildings, forest, glacier, mountain, sea, street",0.875,1260,7,31,ML Hackathon,Image classification Dataset of various locations,"### Context
+
+Following data can be used for Image Classification (Multi class classification)
+
+
+### Content
+
+Dataset contains `3` folders
+- `seg_train`  (contains `seg_train` folder which contains images divided into `6` classes)
+- `seg_test` (contains `seg_test` folder which contains images divided into `6` classes)
+- `seg_pred` (contains `seg_pred` folder which contains unseen images . A total **`7000`** images are present)
+
+### Train and Test Data Distribution
+![Distribution](https://www.kaggleusercontent.com/kf/56689220/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..WbITS7itgy_nZ5IucuVprA.PsdTq7tiMJZEKS-UXu-EUz7sWEUQx2sGlSARAZG44tORIsUHgX5iqzLnTQNQMiT-G34GfXn4QdY34tUqxGICStTc8KiEEeAcsCQpnZv4igdT3mrZnUjAOu1vcDeRdF0ee4G63guaS9FE7DeIQ4JRKdbO9ZnxBCqXO2YgzuLVA7HAVFlF5JBYsKq1FzQiq__76V7RLsf3xSsKHweaT5ZHabWxqz_ZUvHab7QhZ7XYFEnRYhcBExPrFJFSM_ULWtmJKPrwhPZX0ApA-R-kK_vQ7uLF2PGIKMN7TPHT2Qf6jFilpVe0i9_NXjnWDWDth4XOsmrz0XXDNn7o4Gz5qPzAHGSnBmGjrePPTXIudEDBSqpUPJKQpy22XiPKRHGnj-SxWYGZ42ar2gfVrHss5DktjD3AdwlEsQfId8o3SeMJ-5qsSSLNigoNuhZcmHxR9MRrCimHiBA_v8a1MVT2p2Gnm3d7JV7giiKxibWCg5qcLfccvtpiSq9Hs_HRh94JEzL2kTAYrLieEcXFY2na1YCq4GsBH7O7P7zqvlFIX3wT1qLoeDXQUwuZgVEfFg8iEHemCqBCcOeW_wO1vLn7TK3cHIIFbwMKAMqcKu6k-Wi8M3GRv361oAnrcCYeDWMPkraQ6wxUR0CvMwtHrak4kmqdQirzlcvK0sjprc6mCN0Jidw.j9CyPOsdtVbPPr5Me9Ggpg/__results___files/__results___8_0.png)
+You can refer to my notebook for more details. https://www.kaggle.com/shanmukh05/ml-hackathon-techkriti-2k21. 
+
+### Acknowledgements
+All the dataset is part of ML Hackathon that was conducted by [Techkriti](https://techkriti.org/) on March 14, 2021. 
+
+
+### Usage
+- Multi class classification  (CNN's)
+- Generating New Images (GAN's)",FALSE,"['beginner', 'cnn', 'image data', 'multiclass classification', 'tensorflow']",ODbL-1.0
+56,1721125,for-image-classification-of-cheetah-vs-hyena,singhdatascientist,2,"cheetah, hyena",0.75,1375,5,211,For image classification of cheetah vs hyena,"Datasets for aminals, Image classification, Deep Learning ","### Context
+
+There's a story behind every dataset and here's your opportunity to share yours.
+
+
+### Content
+
+What's inside is more than just rows and columns. Make it easy for others to get started by describing how you acquired the data and what time period it represents, too.
+
+
+### Acknowledgements
+
+We wouldn't be here without the help of others. If you owe any attributions or thanks, include them here along with any citations of past research.
+
+
+### Inspiration
+
+https://yash161101.medium.com/cheetah-or-jaguar-image-classification-convolutional-neural-network-437534643262",FALSE,"['classification', 'deep learning', 'cnn', 'image data', 'binary classification']",CC0-1.0
+57,10449,10-monkey-species,slothkong,10,"bald uakari, emperor tamarin, golden monkey, gray langur, hamadryas baboon, mandril, proboscis monkey, red howler, vervet monkey, white faced saki",0.8125,120503,454,21608,10 Monkey Species,Image dataset for fine-grain classification,"
+### Content
+The dataset consists of two files, training and validation. Each folder contains 10 subforders labeled as n0~n9, each corresponding a species form [Wikipedia's monkey cladogram][1]. Images are 400x300 px or larger and JPEG format (almost 1400 images).  Images were downloaded with help of the [googliser][2] open source code.
+
+    Label mapping:
+    n0, alouatta_palliata
+    n1, erythrocebus_patas
+    n2, cacajao_calvus 
+    n3, macaca_fuscata   
+    n4, cebuella_pygmea
+    n5, cebus_capucinus
+    n6, mico_argentatus
+    n7, saimiri_sciureus 
+    n8, aotus_nigriceps
+    n9, trachypithecus_johnii
+
+
+ - For more information on the monkey species and number of images per class make sure to check `monkey_labels.txt` file. 
+
+
+### Aim
+
+This dataset is intended as a test case for fine-grain classification tasks, perhaps best  used in combination with transfer learning. Hopefully someone can help us expand the number of classes or number of images. 
+
+### Acknowledgements
+
+Thanks to Romain Renard for his help with the code implementation. Also, thanks to Gustavo Montoya, Jacky Zhang and Sofia Loaiciga  for their help with the dataset curation.
+
+### Notes
+Some demo code for usage of the dataset in combination with Keras can be found in this [repo][3].
+
+
+  [1]: https://en.wikipedia.org/wiki/Monkey
+  [2]: https://github.com/teracow/googliser
+  [3]: https://github.com/slothkong/CNN_classification_10_monkey_species
+",FALSE,"['earth and nature', 'biology', 'animals', 'image data']",CC0-1.0
+58,652017,covid19-normal-posteroanteriorpa-xrays,tarandeep97,2,"normal, covid",0.875,3011,11,205,COVID-19 & Normal Posteroanterior(PA) X-rays,2 Categories with 280 images,"### Content
+
+The dataset is organized into 2 folders (COVID, normal). There are 280 X-Ray images (JPEG) and 2 categories (COVID/normal). 
+
+### Acknowledgements
+
+   - https://radiopaedia.org/ 
+   - https://www.sirm.org/category/senza-categoria/covid-19/
+   - https://github.com/ieee8023/covid-chestxray-dataset
+   - https://www.eurorad.org/ 
+   - https://coronacases.org/ 
+   - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+
+
+
+### Inspiration
+To detect and classify COVID-19 from medical images.",FALSE,"['computer vision', 'image data', 'health conditions', 'covid19']",DbCL-1.0
+59,233210,waste-classification-data,techsash,2,"organic, recyclable",0.875,138732,316,14927,Waste Classification data,This dataset contains 22500 images of organic and recyclable objects,"<h1>WASTE CLASSIFICATION</h1>
+
+**PROBLEM**<br><br>
+Waste management is a big problem in our country. Most of the wastes end up in landfills. This leads to many issues like
+
+- Increase in landfills<br>
+- Eutrophication<br>
+- Consumption of toxic waste by animals<br>
+- Leachate<br>
+- Increase in toxins<br>
+- Land, water and air pollution<br><br>
+
+**APPROACH**<br><br>
+- Studied white papers on waste management<br>
+- Analysed the components of household waste<br>
+- Segregated into two classes (Organic and recyclable)<br>
+- Automated the process by using IOT and machine learning<br>
+- Reduce toxic waste ending in landfills<br><br>
+
+**IMPLEMENTATION**<br><br>
+Dataset is divided into train data (85%) and test data (15%)??
+
+Training data - 22564 images?    Test data - 2513 images",FALSE,"['business', 'energy', 'classification', 'image data', 'binary classification']",CC-BY-SA-4.0
+60,2162842,hymenoptera,thedatasith,2,"ants, bees",1,2130,20,188,Hymenoptera Dataset,Images for classification comprised of ants and bees,"### Context
+
+There are several ""Hymenoptera"" datasets on Kaggle, all of them (to this date) with a usability score under 4.0. This is an effort to improve upon them, and include code examples to demonstrate how the data can be used for a binary Image Classification exercise.
+
+### Content
+
+Here you will find images for two species in the order Hymenoptera, specifically ants and bees. The images can be used for a binary classification exercise. I've made a notebook (available in the code tab of the dataset) meant to be run either locally or on Kaggle. The code uses the Kaggle CLI for downloading the images to their corresponding location, and implements a ResNet-based CNN for demonstrating Image Classification.
+
+### Acknowledgements 
+
+The images were downloaded originally from:
+https://www.kaggle.com/datasets/melodytsekeni/hymenoptera-data",FALSE,"['biology', 'classification', 'cnn', 'image data', 'binary classification']",CC0-1.0
+61,835414,labeled-chest-xray-images,tolgadincer,2,"normal, pneumonia",0.8125,30592,93,5017,Chest X-ray Images,for pneumonia detection with deep learning,"### Context
+Pneumonia is an infection that inflames the air sacs in one or both lungs. It kills more children younger than 5 years old each year than any other infectious disease, such as HIV infection, malaria, or tuberculosis. Diagnosis is often based on symptoms and physical examination. Chest X-rays may help confirm the diagnosis.
+
+### Content
+This dataset contains 5,856 validated Chest X-Ray images. The images are split into a training set and a testing set of independent patients. Images are labeled as (*disease*:NORMAL/BACTERIA/VIRUS)-(*randomized patient I*D)-(*image number of a patient*). For details of the data collection and description, see the referenced paper below.
+
+According to the paper, the images (anterior-posterior) were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children＊s Medical Center, Guangzhou.
+
+A previous version (v2) of this dataset is available here: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia. Note that the files names are irregular in v2, but they are fixed in the new version (v3).
+
+### Inspiration
+This data will be useful for developing/training/testing classification models with convolutional neural networks.
+
+### Acknowledgements
+This dataset is taken from https://data.mendeley.com/datasets/rscbjbr9sj/3.
+
+Licence: CC BY 4.0
+
+Reference: https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
+
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F337744%2Fdcbe43e6fc837ab6b2f214a8c30a5ae9%2FScreen%20Shot%202020-08-18%20at%206.44.01%20PM.png?generation=1597792574722258&alt=media)",FALSE,"['arts and entertainment', 'health', 'computer science', 'computer vision', 'deep learning', 'multiclass classification']",other
+62,23777,cat-and-dog,tongpython,2,"cats, dogs",0.75,241693,910,65826,Cat and Dog,Cats and Dogs dataset to train a DL model,"This dataset is for running the code from this site: https://becominghuman.ai/building-an-image-classifier-using-deep-learning-in-python-totally-from-a-beginners-perspective-be8dbaf22dd8.
+
+This is how to show a picture from the training set: display(Image('../input/cat-and-dog/training_set/training_set/dogs/dog.423.jpg'))
+
+From the test set: display(Image('../input/cat-and-dog/test_set/test_set/cats/cat.4453.jpg'))
+
+See an example of using this dataset. https://www.kaggle.com/tongpython/nattawut-5920421014-cat-vs-dog-dl",FALSE,"['animals', 'deep learning']",CC0-1.0
+63,2589401,10-species-of-monkey-multiclass-classification,utkarshsaxenadn,10,"bald uakari, emperor tamarin, golden monkey, gray langur, hamadryas baboon, mandril, proboscis monkey, red howler, vervet monkey, white faced saki",0.875,351,9,21,10 species of Monkey | Multi-Class Classification,Monkey species classification,"This is a **Multi-class classification** data set of **10 different classes** of **10 different monkey species**. These **monkey species** are :
+
+1.  **Bald Uakari**
+2. **Emperor Tamarin**
+3. **Golden Monkey**
+4. **Gray Langur**
+5. **Hamadryas Baboon**
+6. **Mandril**
+7. **Proboscis Monkey**
+8. **Red Howler**
+9. **Vervet Monkey**
+10. **White Faced Saki**
+
+Each species have their own **special characteristics**, such as,
+
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F11318749%2F30216a6beaa2fd2156c410a94db3a99a%2FBU%20(60).jpeg?generation=1667094325982835&alt=media)
+
+This is the image of **Bald Uakari**, I've been in suggest they are **bald** and their **face is of red color**. You can have a look at the images of all classes in the below **data set section**.
+
+# Challenges
+
+Each monkey species have their own special characteristics. This means that every specie is different from the other. Thus, the model will have to frame its weights in such a manner that it can understand all the differences. This can become a challenge because of the high variation.
+
+# Source
+
+This data set is collected from the **Internet** and collected for **educational purpose**. I have tried my best to keep all **images different**. But because some images of **Golden Monkey** were not available, **little bit** of **data augmentation** is applied to **balance the class distribution**.
+
+---
+The **prediction data** has **highly imbalanced class distribution**. So I recommend you to only use it as a **prediction or a testing data, not as a validation data**.
+
+---
+Owned by : **DeepNets**",FALSE,"['biology', 'animals', 'classification', 'image data', 'multiclass classification', 'pre-trained model']",CC0-1.0
+64,2437189,plastic-paper-garbage-bag-synthetic-images,vencerlanz09,3,"garbage, paper, plastic",0.875,3219,33,253,Plastic - Paper - Garbage Bag Synthetic Images,"Synthetic Images of Plastic, Paper, and Garbage bags for Computer Vision tasks.","## Overview
+This Dataset Contains Synthetic Images of Plastic, Paper, and Garbage Bags. The Bag Classes folder contains 5000 images of each image class separately while the ImageClassesCombined folder contains annotated images of all classes combined. The annotations are in the COCO format. There is also a sample test_image.jpg but you could also use your own or split the data if you prefer. Foreground images are taken from free stock image sites like unsplash.com, pexels.com, and pixabay.com. Cover Photo <a href=""http://www.freepik.com"">Designed by pch.vector / Freepik</a>
+
+## Inspiration
+I want to create a dataset that could be used for image classification in different settings. The dataset can be used to train a CNN model for image detection and segmentation tasks in domains like agriculture, recycling, and many more.",FALSE,"['computer vision', 'image data', 'tensorflow', 'pytorch', 'torchvision']",CC-BY-SA-4.0
+65,2441249,shells-or-pebbles-an-image-classification-dataset,vencerlanz09,2,"shells, pebbles",0.875,844,24,85,Shells or Pebbles: An Image Classification Dataset,A dataset containing images of shells and pebbles for image classification tasks,"## Overview
+The dataset contains two classes: Shells or Pebbles. This dataset can be used to for binary classification tasks to determine whether a certain image constitutes as a shell or a pebble. <a href=""https://www.freepik.com/free-photo/shells-close-up-north-sea-coast-hague_13562959.htm#query=shells%20and%20pebbles&position=18&from_view=search"">Cover Image by wirestock</a> on Freepik 
+
+## Inspiration
+I found it cool to create an app with a CV algorithm that could classify whether a certain picture is a shell or image. The next time that I would be visiting a beach, I could just use the app to help me collect either shells or pebbles. ?? ",FALSE,"['biology', 'computer vision', 'image data', 'tensorflow', 'torchvision']",CC-BY-SA-4.0
+66,482792,multiclass-weather-dataset,vijaygiitk,5,"cloudy, foggy, rainy, snowy, sunny",0.705882353,23582,40,2976,Weather Classification,1530 images of 5-different weather conditions.,"The dataset contains 6-folders: 5-folders having each category of images and one with the alien-test having the images of all categories. It also consist a csv file having the labels for the images in alien-test folder.
+
+",FALSE,"['computer science', 'computer vision', 'deep learning', 'image data', 'multiclass classification']",CC0-1.0
+67,1353321,face-mask-detection,vijaykumar1799,3,"mask weared incorrect, with mask, without mask",0.875,25232,66,3614,Face Mask Detection,Building a face mask classifier,"### Context
+
+Having seen multiple datasets related to face mask detection on Kaggle, one dataset which stood out contained 3 classes (with mask, without a mask, and wearing mask incorrectly), unfortunately, the dataset was highly imbalanced and uncleaned. So to improve this dataset, images had to be augmented in such a way that each class has an equal distribution of images and removing noisy images which could be considered as outliers. Thus this dataset that I've created is a combination of an existing dataset that has been cleaned and equally distributed across each class.
+
+
+### Content
+
+The dataset contains 3 folders labeled as to which class they belong to. the 3 classes are ""with_mask"", ""withou_mask"", and ""mask_weared_incorrect"". Each folder holds 2994 images of people that belong to such a labeled class.
+
+### Acknowledgements
+
+I would like to acknowledge the usage of those 2 datasets:
+- https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset
+- https://www.kaggle.com/andrewmvd/face-mask-detection
+
+Using the above-mentioned datasets, data was manually extracted from both datasets in such a way that the new dataset is equally distributed and contains good quality samples without noise.",FALSE,"['health', 'cnn', 'image data', 'public safety', 'covid19']",CC0-1.0
+68,2304742,meat-freshness-image-dataset,vinayakshanawad,3,"fresh, half fresh, spoiled",0.8125,2274,16,194,Meat Freshness Image Dataset,Meat Freshness Image Classification Dataset,"### Meat Freshness Dataset
+
+### Data Description
+It includes 2266 images.
+Color-Marbling-Freshness are annotated in Multi-Class Classification format.
+
+The following pre-processing was applied to each image:
+* Auto-orientation of pixel data (with EXIF-orientation stripping)
+* Resize to 416x416 (Stretch)
+
+No image augmentation techniques were applied.
+
+### Classes
+Fresh, Half-Fresh, Spoiled
+
+### Inspiration
+How can we detect whether meat is fresh or not?
+
+### Acknowledgements
+Many thanks to Roboflow team for sharing this data.",FALSE,"['art', 'computer vision', 'cooking and recipes', 'food']",CC0-1.0
+69,1685555,asian-vs-african-elephant-image-classification,vivmankar,2,"asian, african",0.75,7641,30,909,Asian vs African Elephants,Binary image classification dataset,"### Context
+
+This dataset is created to practice various image classification techniques. 
+The image data is collected using google image search ( under ""creative commons license"" ). 
+
+
+### Dataset  details 
+
+1. Number of classes: 2 (Asian elephant and African elephant ) 
+2. Number of images: 1028 
+3. Image shape range: ( 100, 100) to (4992, 3328)
+4. To increase complexity the train set contains less than 5% mislabeled images, while all images in the test set have the correct label.  
+
+### Baseline approach
+[Asian vs African Elephants: Baseline](https://www.kaggle.com/vivmankar/asian-vs-african-elephants-baseline)
+",FALSE,"['animals', 'classification', 'cnn', 'image data']",CC0-1.0
+70,1748001,sport-celebrity-image-classification,yaswanthgali,4,"Kane Williamson, Kobe Bryant, Maria Sharapova, Ronaldo",0.875,5600,27,468,Sport Celebrity Image Classification,classify your favorite sports persons images,"If you are working with this dataset then don't forget to upvote
+
+### Context
+
+I am an  ardent lover of sports and this dataset shows my favorite sports person in Basketball, Football, Tennis, and Cricket
+
+
+### Content
+
+So the data contain around 100 images of each celebrity namely Kobe, Kane, Maria, and Ronaldo.
+
+
+### Source
+
+These images are scraped from Getty images website.
+
+
+",FALSE,"['arts and entertainment', 'celebrities', 'computer vision', 'classification', 'news']",CC0-1.0
+71,1420362,chessman,zulfikarkhalik,6,"bishop, king, knight, pawn, queen, rook",0,462,1,4,Chessman,,,FALSE,[],unknown

@@ -1,0 +1,126 @@
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ vgg16 (Functional)          (None, None, None, 512)   14714688  
+                                                                 
+ global_average_pooling2d_1   (None, 512)              0         
+ (GlobalAveragePooling2D)                                        
+                                                                 
+ dense_2 (Dense)             (None, 256)               131328    
+                                                                 
+ dense_3 (Dense)             (None, 10)                2570      
+                                                                 
+=================================================================
+Total params: 14,848,586
+Trainable params: 133,898
+Non-trainable params: 14,714,688
+_________________________________________________________________
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ vgg16 (Functional)          (None, None, None, 512)   14714688  
+                                                                 
+ global_average_pooling2d_1   (None, 512)              0         
+ (GlobalAveragePooling2D)                                        
+                                                                 
+ dense_2 (Dense)             (None, 256)               131328    
+                                                                 
+ dense_3 (Dense)             (None, 10)                2570      
+                                                                 
+=================================================================
+Total params: 14,848,586
+Trainable params: 133,898
+Non-trainable params: 14,714,688
+_________________________________________________________________
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ vgg16 (Functional)          (None, None, None, 512)   14714688  
+                                                                 
+ global_average_pooling2d_1   (None, 512)              0         
+ (GlobalAveragePooling2D)                                        
+                                                                 
+ dense_2 (Dense)             (None, 256)               131328    
+                                                                 
+ dense_3 (Dense)             (None, 10)                2570      
+                                                                 
+=================================================================
+Total params: 14,848,586
+Trainable params: 133,898
+Non-trainable params: 14,714,688
+_________________________________________________________________
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ vgg16 (Functional)          (None, None, None, 512)   14714688  
+                                                                 
+ global_average_pooling2d_1   (None, 512)              0         
+ (GlobalAveragePooling2D)                                        
+                                                                 
+ dense_2 (Dense)             (None, 256)               131328    
+                                                                 
+ dense_3 (Dense)             (None, 10)                2570      
+                                                                 
+=================================================================
+Total params: 14,848,586
+Trainable params: 133,898
+Non-trainable params: 14,714,688
+_________________________________________________________________
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ vgg16 (Functional)          (None, None, None, 512)   14714688  
+                                                                 
+ global_average_pooling2d_1   (None, 512)              0         
+ (GlobalAveragePooling2D)                                        
+                                                                 
+ dense_2 (Dense)             (None, 256)               131328    
+                                                                 
+ dense_3 (Dense)             (None, 10)                2570      
+                                                                 
+=================================================================
+Total params: 14,848,586
+Trainable params: 133,898
+Non-trainable params: 14,714,688
+_________________________________________________________________
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ vgg16 (Functional)          (None, None, None, 512)   14714688  
+                                                                 
+ global_average_pooling2d_1   (None, 512)              0         
+ (GlobalAveragePooling2D)                                        
+                                                                 
+ dense_2 (Dense)             (None, 256)               131328    
+                                                                 
+ dense_3 (Dense)             (None, 10)                2570      
+                                                                 
+=================================================================
+Total params: 14,848,586
+Trainable params: 133,898
+Non-trainable params: 14,714,688
+_________________________________________________________________
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ vgg16 (Functional)          (None, None, None, 512)   14714688  
+                                                                 
+ global_average_pooling2d_1   (None, 512)              0         
+ (GlobalAveragePooling2D)                                        
+                                                                 
+ dense_2 (Dense)             (None, 256)               131328    
+                                                                 
+ dense_3 (Dense)             (None, 10)                2570      
+                                                                 
+=================================================================
+Total params: 14,848,586
+Trainable params: 133,898
+Non-trainable params: 14,714,688
+_________________________________________________________________
