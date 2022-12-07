@@ -27,7 +27,7 @@ def load_rating_data(data_path):
             each_line[1] = each_line[1].replace("[", "").replace("]", "")
             data_list.append(each_line)
     f.close()
-    with open("Balance_accuracy.txt", "w") as f:
+    with open("Balance_accuracy_2.txt", "w") as f:
         for data in data_list:
             model_id = data[0].split(",")[0]
             dataset_id = data[0].split(",")[1]
@@ -139,7 +139,7 @@ def getCost(userId, l):
 
 
 if __name__ == "__main__":
-    load_rating_data("edge.txt")
+    load_rating_data("edge_2.txt")
     # recommendByDataset("0")
     # recommendList = getrecommendList()
     # cost = getPrecision("0", recommendList)
